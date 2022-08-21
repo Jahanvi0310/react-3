@@ -1,0 +1,15 @@
+.inp{
+    background-color: aliceblue;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    color: black;
+    padding: 15px;
+}
+.result{
+    font-size: larger;
+}
+.text{
+    font-size: small;
+}

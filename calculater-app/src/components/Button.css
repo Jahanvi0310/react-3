@@ -1,0 +1,10 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 50px;
+    margin: 4px;
+    border-radius: 10px;
+
+}
