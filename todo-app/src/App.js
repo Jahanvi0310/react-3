@@ -23,11 +23,16 @@ console.log("checked");
 
   }
   const additems=(event)=>{
+    if(!input){
+      alert("enter todo first");
+    }
+    else{
   setitems((olditem)=>{
     return[...olditem,input]
   })
   setinput("");
     };
+  }
   return(
     <>
     <div className="maindiv">
